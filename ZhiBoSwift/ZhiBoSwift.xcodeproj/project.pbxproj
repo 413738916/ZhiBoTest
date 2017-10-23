@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		9D8BCDC41F99D3E70057CCF1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8BCDC31F99D3E70057CCF1 /* AppDelegate.swift */; };
-		9D8BCDC61F99D3E70057CCF1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8BCDC51F99D3E70057CCF1 /* ViewController.swift */; };
 		9D8BCDC91F99D3E70057CCF1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D8BCDC71F99D3E70057CCF1 /* Main.storyboard */; };
 		9D8BCDCB1F99D3E70057CCF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D8BCDCA1F99D3E70057CCF1 /* Assets.xcassets */; };
 		9D8BCDCE1F99D3E70057CCF1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D8BCDCC1F99D3E70057CCF1 /* LaunchScreen.storyboard */; };
@@ -36,7 +35,6 @@
 /* Begin PBXFileReference section */
 		9D8BCDC01F99D3E70057CCF1 /* ZhiBoSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZhiBoSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D8BCDC31F99D3E70057CCF1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9D8BCDC51F99D3E70057CCF1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9D8BCDC81F99D3E70057CCF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9D8BCDCA1F99D3E70057CCF1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9D8BCDCD1F99D3E70057CCF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -97,8 +95,8 @@
 		9D8BCDC21F99D3E70057CCF1 /* ZhiBoSwift */ = {
 			isa = PBXGroup;
 			children = (
+				9DB9C07A1F9D9E620005CF66 /* Classes */,
 				9D8BCDC31F99D3E70057CCF1 /* AppDelegate.swift */,
-				9D8BCDC51F99D3E70057CCF1 /* ViewController.swift */,
 				9D8BCDC71F99D3E70057CCF1 /* Main.storyboard */,
 				9D8BCDCA1F99D3E70057CCF1 /* Assets.xcassets */,
 				9D8BCDCC1F99D3E70057CCF1 /* LaunchScreen.storyboard */,
@@ -123,6 +121,61 @@
 				9D8BCDE51F99D3E70057CCF1 /* Info.plist */,
 			);
 			path = ZhiBoSwiftUITests;
+			sourceTree = "<group>";
+		};
+		9DB9C07A1F9D9E620005CF66 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				9DB9C07E1F9D9E620005CF66 /* Main */,
+				9DB9C07C1F9D9E620005CF66 /* Home */,
+				9DB9C07D1F9D9E620005CF66 /* Live */,
+				9DB9C07B1F9D9E620005CF66 /* Follow */,
+				9DB9C07F1F9D9E620005CF66 /* Me */,
+				9DB9C0801F9D9E620005CF66 /* Tools */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		9DB9C07B1F9D9E620005CF66 /* Follow */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Follow;
+			sourceTree = "<group>";
+		};
+		9DB9C07C1F9D9E620005CF66 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		9DB9C07D1F9D9E620005CF66 /* Live */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Live;
+			sourceTree = "<group>";
+		};
+		9DB9C07E1F9D9E620005CF66 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		9DB9C07F1F9D9E620005CF66 /* Me */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Me;
+			sourceTree = "<group>";
+		};
+		9DB9C0801F9D9E620005CF66 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,7 +312,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9D8BCDC61F99D3E70057CCF1 /* ViewController.swift in Sources */,
 				9D8BCDC41F99D3E70057CCF1 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
