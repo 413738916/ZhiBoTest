@@ -7,12 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9D14429E1F9F1DB9005B1288 /* UIColor-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D14429D1F9F1DB9005B1288 /* UIColor-Extension.swift */; };
+		9D1442A01F9F2547005B1288 /* PageContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D14429F1F9F2547005B1288 /* PageContentView.swift */; };
 		9D8BCDC41F99D3E70057CCF1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8BCDC31F99D3E70057CCF1 /* AppDelegate.swift */; };
 		9D8BCDC91F99D3E70057CCF1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D8BCDC71F99D3E70057CCF1 /* Main.storyboard */; };
 		9D8BCDCB1F99D3E70057CCF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D8BCDCA1F99D3E70057CCF1 /* Assets.xcassets */; };
 		9D8BCDCE1F99D3E70057CCF1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D8BCDCC1F99D3E70057CCF1 /* LaunchScreen.storyboard */; };
 		9D8BCDD91F99D3E70057CCF1 /* ZhiBoSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8BCDD81F99D3E70057CCF1 /* ZhiBoSwiftTests.swift */; };
 		9D8BCDE41F99D3E70057CCF1 /* ZhiBoSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8BCDE31F99D3E70057CCF1 /* ZhiBoSwiftUITests.swift */; };
+		9DB9C0831F9DC30A0005CF66 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DB9C0811F9DC30A0005CF66 /* Home.storyboard */; };
+		9DB9C0861F9DC38C0005CF66 /* Live.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DB9C0841F9DC38C0005CF66 /* Live.storyboard */; };
+		9DB9C0891F9DC3BE0005CF66 /* Follow.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DB9C0871F9DC3BE0005CF66 /* Follow.storyboard */; };
+		9DB9C08C1F9DC3EF0005CF66 /* Me.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DB9C08A1F9DC3EF0005CF66 /* Me.storyboard */; };
+		9DB9C0961F9DDA590005CF66 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DB9C0931F9DDA590005CF66 /* MainViewController.swift */; };
+		9DB9C0981F9DDAA30005CF66 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DB9C0971F9DDAA30005CF66 /* HomeViewController.swift */; };
+		9DEC61081F9EE24400E53EA5 /* UIBarButtonItem-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DEC61071F9EE24400E53EA5 /* UIBarButtonItem-Extension.swift */; };
+		9DEC610A1F9EEAAE00E53EA5 /* PageTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DEC61091F9EEAAE00E53EA5 /* PageTitleView.swift */; };
+		9DEC610C1F9EEC3F00E53EA5 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DEC610B1F9EEC3F00E53EA5 /* Common.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +44,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9D14429D1F9F1DB9005B1288 /* UIColor-Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor-Extension.swift"; sourceTree = "<group>"; };
+		9D14429F1F9F2547005B1288 /* PageContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageContentView.swift; sourceTree = "<group>"; };
 		9D8BCDC01F99D3E70057CCF1 /* ZhiBoSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZhiBoSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D8BCDC31F99D3E70057CCF1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9D8BCDC81F99D3E70057CCF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -45,6 +58,15 @@
 		9D8BCDDF1F99D3E70057CCF1 /* ZhiBoSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZhiBoSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D8BCDE31F99D3E70057CCF1 /* ZhiBoSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZhiBoSwiftUITests.swift; sourceTree = "<group>"; };
 		9D8BCDE51F99D3E70057CCF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9DB9C0821F9DC30A0005CF66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = ZhiBoSwift/Base.lproj/Home.storyboard; sourceTree = SOURCE_ROOT; };
+		9DB9C0851F9DC38C0005CF66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = ZhiBoSwift/Base.lproj/Live.storyboard; sourceTree = SOURCE_ROOT; };
+		9DB9C0881F9DC3BE0005CF66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = ZhiBoSwift/Base.lproj/Follow.storyboard; sourceTree = SOURCE_ROOT; };
+		9DB9C08B1F9DC3EF0005CF66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = ZhiBoSwift/Base.lproj/Me.storyboard; sourceTree = SOURCE_ROOT; };
+		9DB9C0931F9DDA590005CF66 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		9DB9C0971F9DDAA30005CF66 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		9DEC61071F9EE24400E53EA5 /* UIBarButtonItem-Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIBarButtonItem-Extension.swift"; sourceTree = "<group>"; };
+		9DEC61091F9EEAAE00E53EA5 /* PageTitleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageTitleView.swift; sourceTree = "<group>"; };
+		9DEC610B1F9EEC3F00E53EA5 /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,7 +119,6 @@
 			children = (
 				9DB9C07A1F9D9E620005CF66 /* Classes */,
 				9D8BCDC31F99D3E70057CCF1 /* AppDelegate.swift */,
-				9D8BCDC71F99D3E70057CCF1 /* Main.storyboard */,
 				9D8BCDCA1F99D3E70057CCF1 /* Assets.xcassets */,
 				9D8BCDCC1F99D3E70057CCF1 /* LaunchScreen.storyboard */,
 				9D8BCDCF1F99D3E70057CCF1 /* Info.plist */,
@@ -139,6 +160,7 @@
 		9DB9C07B1F9D9E620005CF66 /* Follow */ = {
 			isa = PBXGroup;
 			children = (
+				9DB9C0871F9DC3BE0005CF66 /* Follow.storyboard */,
 			);
 			path = Follow;
 			sourceTree = "<group>";
@@ -146,6 +168,9 @@
 		9DB9C07C1F9D9E620005CF66 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				9DB9C08F1F9DD9C50005CF66 /* Controller */,
+				9DB9C0901F9DD9C50005CF66 /* Model */,
+				9DB9C0911F9DD9C50005CF66 /* View */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -153,6 +178,7 @@
 		9DB9C07D1F9D9E620005CF66 /* Live */ = {
 			isa = PBXGroup;
 			children = (
+				9DB9C0841F9DC38C0005CF66 /* Live.storyboard */,
 			);
 			path = Live;
 			sourceTree = "<group>";
@@ -160,6 +186,9 @@
 		9DB9C07E1F9D9E620005CF66 /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				9DB9C0921F9DDA590005CF66 /* Controller */,
+				9DB9C0941F9DDA590005CF66 /* Model */,
+				9DB9C0951F9DDA590005CF66 /* View */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -167,6 +196,7 @@
 		9DB9C07F1F9D9E620005CF66 /* Me */ = {
 			isa = PBXGroup;
 			children = (
+				9DB9C08A1F9DC3EF0005CF66 /* Me.storyboard */,
 			);
 			path = Me;
 			sourceTree = "<group>";
@@ -174,8 +204,67 @@
 		9DB9C0801F9D9E620005CF66 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				9DEC61061F9EE1E100E53EA5 /* Extension */,
+				9DEC610B1F9EEC3F00E53EA5 /* Common.swift */,
 			);
 			path = Tools;
+			sourceTree = "<group>";
+		};
+		9DB9C08F1F9DD9C50005CF66 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9DB9C0811F9DC30A0005CF66 /* Home.storyboard */,
+				9DB9C0971F9DDAA30005CF66 /* HomeViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		9DB9C0901F9DD9C50005CF66 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9DB9C0911F9DD9C50005CF66 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9DB9C0921F9DDA590005CF66 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9D8BCDC71F99D3E70057CCF1 /* Main.storyboard */,
+				9DB9C0931F9DDA590005CF66 /* MainViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		9DB9C0941F9DDA590005CF66 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9DB9C0951F9DDA590005CF66 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9DEC61091F9EEAAE00E53EA5 /* PageTitleView.swift */,
+				9D14429F1F9F2547005B1288 /* PageContentView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9DEC61061F9EE1E100E53EA5 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				9DEC61071F9EE24400E53EA5 /* UIBarButtonItem-Extension.swift */,
+				9D14429D1F9F1DB9005B1288 /* UIColor-Extension.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -288,6 +377,10 @@
 				9D8BCDCE1F99D3E70057CCF1 /* LaunchScreen.storyboard in Resources */,
 				9D8BCDCB1F99D3E70057CCF1 /* Assets.xcassets in Resources */,
 				9D8BCDC91F99D3E70057CCF1 /* Main.storyboard in Resources */,
+				9DB9C0861F9DC38C0005CF66 /* Live.storyboard in Resources */,
+				9DB9C0831F9DC30A0005CF66 /* Home.storyboard in Resources */,
+				9DB9C08C1F9DC3EF0005CF66 /* Me.storyboard in Resources */,
+				9DB9C0891F9DC3BE0005CF66 /* Follow.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -313,6 +406,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				9D8BCDC41F99D3E70057CCF1 /* AppDelegate.swift in Sources */,
+				9DB9C0961F9DDA590005CF66 /* MainViewController.swift in Sources */,
+				9DEC610A1F9EEAAE00E53EA5 /* PageTitleView.swift in Sources */,
+				9D1442A01F9F2547005B1288 /* PageContentView.swift in Sources */,
+				9DEC61081F9EE24400E53EA5 /* UIBarButtonItem-Extension.swift in Sources */,
+				9DEC610C1F9EEC3F00E53EA5 /* Common.swift in Sources */,
+				9D14429E1F9F1DB9005B1288 /* UIColor-Extension.swift in Sources */,
+				9DB9C0981F9DDAA30005CF66 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -354,6 +454,7 @@
 				9D8BCDC81F99D3E70057CCF1 /* Base */,
 			);
 			name = Main.storyboard;
+			path = ../../..;
 			sourceTree = "<group>";
 		};
 		9D8BCDCC1F99D3E70057CCF1 /* LaunchScreen.storyboard */ = {
@@ -362,6 +463,42 @@
 				9D8BCDCD1F99D3E70057CCF1 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		9DB9C0811F9DC30A0005CF66 /* Home.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9DB9C0821F9DC30A0005CF66 /* Base */,
+			);
+			name = Home.storyboard;
+			path = ../../Main;
+			sourceTree = "<group>";
+		};
+		9DB9C0841F9DC38C0005CF66 /* Live.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9DB9C0851F9DC38C0005CF66 /* Base */,
+			);
+			name = Live.storyboard;
+			path = ../Main;
+			sourceTree = "<group>";
+		};
+		9DB9C0871F9DC3BE0005CF66 /* Follow.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9DB9C0881F9DC3BE0005CF66 /* Base */,
+			);
+			name = Follow.storyboard;
+			path = ../Main;
+			sourceTree = "<group>";
+		};
+		9DB9C08A1F9DC3EF0005CF66 /* Me.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9DB9C08B1F9DC3EF0005CF66 /* Base */,
+			);
+			name = Me.storyboard;
+			path = ../Main;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -465,6 +602,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = ZhiBoSwift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ct.ios.ZhiBoSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -479,6 +617,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = ZhiBoSwift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ct.ios.ZhiBoSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
