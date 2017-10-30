@@ -29,14 +29,14 @@ class HomeViewController: UIViewController {
         
         // 2.确定所有的子控制器
         var childVcs = [UIViewController]()
-        
-        for i in 0..<4 {
+        childVcs.append(RecommendViewController())
+
+        for i in 0..<3 {
             let vc = UIViewController()
             vc.view.backgroundColor = UIColor.randomColor()
             childVcs.append(vc)
         }
         
-//        childVcs.append(RecommendViewController())
 //        childVcs.append(GameViewController())
 //        childVcs.append(AmuseViewController())
 //        childVcs.append(FunnyViewController())
