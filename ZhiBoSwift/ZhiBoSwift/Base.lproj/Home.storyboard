@@ -28,7 +28,7 @@
         <!--首页-->
         <scene sceneID="jRK-dT-Urt">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="arV-IL-Pof" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="arV-IL-Pof" customClass="CustomNavigationController" customModule="ZhiBoSwift" customModuleProvider="target" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="首页" image="btn_home_normal" selectedImage="btn_home_selected" id="ejW-bz-8XK"/>
                     <toolbarItems/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>

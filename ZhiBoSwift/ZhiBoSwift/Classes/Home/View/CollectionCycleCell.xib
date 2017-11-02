@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="CollectionCycleCell" customModule="ZhiBoSwift" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="388" height="187"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="388" height="187"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Img_default" translatesAutoresizingMaskIntoConstraints="NO" id="j3K-j8-Ecq"/>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="taV-34-g2A">
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="王者荣耀黄金" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xxu-mW-wAi">
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.29668243838028169" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Xxu-mW-wAi" firstAttribute="leading" secondItem="taV-34-g2A" secondAttribute="leading" constant="15" id="Gf6-A4-snr"/>
+                            <constraint firstAttribute="height" constant="30" id="Xam-CS-KhM"/>
+                            <constraint firstItem="Xxu-mW-wAi" firstAttribute="centerY" secondItem="taV-34-g2A" secondAttribute="centerY" id="xG7-6M-3K2"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="j3K-j8-Ecq" secondAttribute="bottom" id="3sH-PF-uba"/>
+                <constraint firstAttribute="bottom" secondItem="taV-34-g2A" secondAttribute="bottom" id="EBf-gm-UkI"/>
+                <constraint firstItem="j3K-j8-Ecq" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="Ebx-yv-0h7"/>
+                <constraint firstItem="j3K-j8-Ecq" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="MQa-Gg-i9b"/>
+                <constraint firstAttribute="trailing" secondItem="j3K-j8-Ecq" secondAttribute="trailing" id="Oz6-XS-J82"/>
+                <constraint firstItem="taV-34-g2A" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="fEy-PH-noN"/>
+                <constraint firstAttribute="trailing" secondItem="taV-34-g2A" secondAttribute="trailing" id="jaj-E0-7rn"/>
+            </constraints>
+            <size key="customSize" width="388" height="187"/>
+            <connections>
+                <outlet property="iconImageView" destination="j3K-j8-Ecq" id="cth-dr-rgx"/>
+                <outlet property="titleLabel" destination="Xxu-mW-wAi" id="2cP-5q-U0f"/>
+            </connections>
+            <point key="canvasLocation" x="-219" y="71"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="Img_default" width="172" height="103"/>
+    </resources>
+</document>

@@ -20,7 +20,7 @@ class NetworkTools {
     
     class func downLoadImg(_ urlS : String, placeholder : String? = nil,imgView : UIImageView) -> () {
         
-         guard let iconURL = URL(string: urlS) else { return }
+        guard let iconURL = URL(string: urlS) else { return }
         imgView.kf.setImage(with: iconURL)
     }
 

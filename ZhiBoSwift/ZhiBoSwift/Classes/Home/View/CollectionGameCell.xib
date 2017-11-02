@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="CollectionGameCell" customModule="ZhiBoSwift" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="80" height="90"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="80" height="90"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="王者荣耀" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7EB-is-wuz">
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="FUQ-R7-41g">
+                        <constraints>
+                            <constraint firstAttribute="width" constant="45" id="1H9-Oi-vfM"/>
+                            <constraint firstAttribute="height" constant="45" id="mOH-h3-efV"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                <real key="value" value="22.5"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                        </userDefinedRuntimeAttributes>
+                    </imageView>
+                    <view alpha="0.29999999999999999" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vcN-Ex-bv9">
+                        <color key="backgroundColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="eBX-ow-ddI"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="FUQ-R7-41g" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="9ha-4R-5Xb"/>
+                <constraint firstItem="FUQ-R7-41g" firstAttribute="centerY" secondItem="gTV-IL-0wX" secondAttribute="centerY" constant="-8" id="AuR-CA-giP"/>
+                <constraint firstAttribute="bottom" secondItem="vcN-Ex-bv9" secondAttribute="bottom" constant="-1" id="D2H-qO-ggx"/>
+                <constraint firstItem="vcN-Ex-bv9" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="Hpf-Oe-0m8"/>
+                <constraint firstItem="7EB-is-wuz" firstAttribute="centerX" secondItem="FUQ-R7-41g" secondAttribute="centerX" id="IFd-Gm-47S"/>
+                <constraint firstAttribute="trailing" secondItem="vcN-Ex-bv9" secondAttribute="trailing" id="TXW-Bv-9xc"/>
+                <constraint firstItem="7EB-is-wuz" firstAttribute="top" secondItem="FUQ-R7-41g" secondAttribute="bottom" constant="8" id="Y0K-dE-kyh"/>
+            </constraints>
+            <size key="customSize" width="228" height="151"/>
+            <connections>
+                <outlet property="iconImageView" destination="FUQ-R7-41g" id="KAn-3I-Njw"/>
+                <outlet property="titleLabel" destination="7EB-is-wuz" id="7QB-g3-h5c"/>
+            </connections>
+            <point key="canvasLocation" x="-70" y="-3"/>
+        </collectionViewCell>
+    </objects>
+</document>

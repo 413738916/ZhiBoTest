@@ -79,7 +79,7 @@
                 <outlet property="nickNameLabel" destination="1ZP-R7-Wqi" id="9Ju-nK-0wK"/>
                 <outlet property="onlineBtn" destination="B8B-Bn-1ec" id="X1c-Lg-qk6"/>
             </connections>
-            <point key="canvasLocation" x="76" y="0.0"/>
+            <point key="canvasLocation" x="203" y="1"/>
         </collectionViewCell>
     </objects>
     <resources>
