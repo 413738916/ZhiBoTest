@@ -133,6 +133,7 @@ extension PageContentView : UICollectionViewDelegate {
             // 3.计算targetIndex
             targetIndex = sourceIndex + 1
             if targetIndex >= childVcs.count {
+                progress = 1;
                 targetIndex = childVcs.count - 1
             }
             
